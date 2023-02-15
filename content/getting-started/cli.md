@@ -1,31 +1,62 @@
-+++
+<!-- +++ 
 title = "Command-line install"
 weight = 3
 description = "Installation instructions for technical users"
 tag = "selfhost"
++++ -->
+
++++
+title = "命令行安装"
+weight = 3
+description = "技术用户安装说明"
+tag = "自我托管"
 +++
 
-This guide covers running the Urbit runtime (Vere) using the command line. This
+<!-- This guide covers running the Urbit runtime (Vere) using the command line. This 
 can be run on your local machine or a server in the cloud, we just cover the
 local case here. The runtime is what interprets the Urbit kernel code (Arvo)
-into commands your specific machine (macOS or Linux) understands.
+into commands your specific machine (macOS or Linux) understands. -->
 
-Note there is a much more comprehensive [cloud hosting
+本指南涵盖使用命令行来运行 Urbit runtime（Vere）。这可以在你的本地计算机或云端服务器上运行，我们在这里只介绍
+本地计算机的案例。Runtime 是将 Urbit 内核代码 (Arvo) 转化为你的特定机器 (macOS 或 Linux) 所能理解的命令。
+
+<!-- Note there is a much more comprehensive [cloud hosting -->
 guide](/getting-started/cloud-hosting) which walks through setting up Urbit on a
-[Digital Ocean](https://www.digitalocean.com/) VPS.
+[Digital Ocean](https://www.digitalocean.com/) VPS. -->
 
-### 1. System Requirements {% #about-swap-space %}
+请注意，这里有一个更全面的[云托管操作指南](/getting-started/cloud-hosting)，其中介绍了如何在
+[Digital Ocean](https://www.digitalocean.com/)VPS上设置 Urbit。
+
+<!-- ### 1. System Requirements {% #about-swap-space %} 
 
 - **Processor**: 1 core
 - **Memory**: 2GB
 - **Storage**: At least a few GB, 40-50GB preferable
-- **Network**: Any
+- **Network**: Any -->
+
+### 1. 系统要求 {% #about-swap-space %}. 
+
+- **处理器**: 单核
+- **内存**: 2GB
+- **存储**：至少几GB，最好是 40-50GB
+- **网络**：任何网络
+
+<!-- **A note on memory**: By default, the Urbit runtime needs 2GB of free memory, 
+and will fail to boot without it. Urbit usually only uses a portion of this, so
+it's possible to use a swap file to makeup for a shortfall without degrading
+performance. For instructions on how to configure a swap file on Linux, see
+[this linuxize.com guide](https://linuxize.com/post/create-a-linux-swap-file/).-->
 
 **A note on memory**: By default, the Urbit runtime needs 2GB of free memory,
 and will fail to boot without it. Urbit usually only uses a portion of this, so
 it's possible to use a swap file to makeup for a shortfall without degrading
 performance. For instructions on how to configure a swap file on Linux, see
 [this linuxize.com guide](https://linuxize.com/post/create-a-linux-swap-file/).
+
+**关于内存的说明**：默认情况下，Urbit runtime 需要2GB的可用内存，没有符合的情况下将无法启动。
+Urbit 通常只使用其中的一部分，所以可以使用交换文件来弥补内存的不足而不会降低
+性能。有关如何在 Linux 上配置交换文件的说明，请参阅
+[这个 linuxize.com 指南](https://linuxize.com/post/create-a-linux-swap-file/)。
 
 **A note on storage**: Urbit saves every event it processes to its [Event
 Log](https://developers.urbit.org/reference/glossary/eventlog). This means its
