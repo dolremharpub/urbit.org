@@ -198,31 +198,37 @@ folder, so you can start it up again by doing:-->
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ``` -->
   
-> Linux 用户需要在另一个终端窗口中运行这个命令，以便在每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> Linux 用户需要在另一个终端窗口中运行以下命令，以便在每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
 > 
 > ```shell
 > sudo apt-get install libcap2-bin
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ```
 
-Since comets are often used temporarily and then discarded, kernel updates are
+<!-- Since comets are often used temporarily and then discarded, kernel updates are 
 not enabled by default. If you plan to use your comet for a while, it's a good
-idea to enable updates with the following command in the dojo:
+idea to enable updates with the following command in the dojo: -->
+  
+由于彗星经常被临时使用后而被丢弃，因此内核更新在默认情况下是未启用的。如果你打算使用你的彗星一段时间，最好的办法是在 dojo 中使用以下命令启用更新:
 
 ```
 |ota (sein:title our now our)
 ```
 
-Lastly most people use their urbit via Landscape, the browser-based UI. In order 
+<!-- Lastly most people use their urbit via Landscape, the browser-based UI. In order  
 to access Landscape, you need your web login code. You can get this by running 
-the following command in the dojo:
+the following command in the dojo: -->
+  
+最后，大多数人是通过 Landscape，即基于浏览器的用户界面来使用他们的 Urbit。为了访问 Landscape，你需要你的网络登录代码。你可以通过在 dojo 中运行以下命令来获得这个代码：
 
 ```
 +code
 ```
 
-It'll spit out a code that'll look something like `lidlut-tabwed-pillex-ridrup`.
-Copy the code it gives you to the clipboard.
+<!-- It'll spit out a code that'll look something like `lidlut-tabwed-pillex-ridrup`. 
+Copy the code it gives you to the clipboard. -->
+
+它将生成一个类似于 lidlut-tabwed-pillex-ridrup 的代码，然后将这个代码复制到剪贴板上。
 
 {% /tab %}
 
