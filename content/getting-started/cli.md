@@ -234,26 +234,32 @@ Copy the code it gives you to the clipboard. -->
 
 {% tab label="Boot a Planet" %}
 
-In order to boot a planet, you need a copy of its private keys. If you got your
+<!-- In order to boot a planet, you need a copy of its private keys. If you got your 
 planet via a claim link, the passport backup `.zip` file you downloaded will
 contain a file called something like `sampel-palnet-1.key`. If you don't have
 the passport backup or you got your planet by another method, you can instead
 login to [Bridge](https://bridge.urbit.org/), select your planet, go to the OS
-section, and hit the "Download Keyfile" button.
+section, and hit the "Download Keyfile" button. -->
+  
+为了启动一个行星，你需要一份属于它的私钥副本。如果你是通过领取链接来获得你的行星，那么你下载的护照备份 `.zip` 文件将包含一个类似于`sampel-palnet-1.key` 的文件。如果你没有护照备份，或者你通过其他方法得到你的行星，那么你可以登录 [桥接 (Bridge)](https://bridge.urbit.org/)来选择你的行星，然后进入操作系统部分，并点击 "下载密钥文件 "按钮。
 
-Back in the terminal, with the `urbit` binary you installed in the previous
+<!-- Back in the terminal, with the `urbit` binary you installed in the previous 
 step, you can boot your planet with the following command (replacing
 `sampel-palnet` with your own planet and pointing to the location of your
-keyfile):
+keyfile): -->
+  
+回到终端，使用你在上一步中安装的 `urbit` 二进制文件，你可以使用以下命令启动你的行星（将 `sampel-palnet` 替换为你自己的行星，并指向你的密钥文件位置）：
 
 ```bash
 ./urbit -w sampel-palnet -k sampel-palnet-1.key
 ```
 
-This will create a folder with the name of your planet and begin booting.
+<!-- This will create a folder with the name of your planet and begin booting. 
 It may take a while to initialize the planet (usually only a couple of minutes,
 but it could take longer). When it's done, it'll take you to the dojo prompt
-(the dojo is Urbit's shell):
+(the dojo is Urbit's shell): -->
+  
+这将创建一个带有你的行星名称的文件夹，并开始启动运行。初始化行星可能需要一些时间（通常只需几分钟，但可能需要更长的时间）。完成后，它将带你进入 dojo 提示界面(dojo 是 Urbit 的外壳 (shell))。
 
 ```
 ames: live on 31337
