@@ -52,20 +52,20 @@ Urbit 通常只使用其中的一部分，所以可以使用交换文件来弥�
 性能。有关如何在 Linux 上配置交换文件的说明，请参阅
 [这个 linuxize.com 指南](https://linuxize.com/post/create-a-linux-swap-file/)。
 
-**A note on storage**: Urbit saves every event it processes to its [Event
+<!-- **A note on storage**: Urbit saves every event it processes to its [Event 
 Log](https://developers.urbit.org/reference/glossary/eventlog). This means its
 disk usage slowly grows over time. Until event log truncation is implemented,
 it's advisable to have 40 or 50GB of disk space available, so you don't have to
 worry about running out for a long time. If you don't have that much, your ship
-will still run fine, but you may run out of space some months down the line.
+will still run fine, but you may run out of space some months down the line. -->
 
 **关于存储的说明**：Urbit 将它处理的每一个事件都保存在其[事件日志](https://developers.urbit.org/reference/glossary/eventlog)。这意味着它的磁盘使用量会随着时间的推移而慢慢增加。在事件日志被截断之前，建议你有40或50GB的可用磁盘空间，这样你就可以在很长一段时间内不必担心磁盘空间不足的问题。即使你没有那么多的磁盘空间，你的飞船 (ship) 仍然可以正常运行，但你可能会在几个月后耗尽磁盘空间。
 
-### 2. Install Urbit
+<!-- ### 2. Install Urbit 
 
 Choose your operating system and run the given command in your terminal to
 download the Urbit runtime, this command downloads the latest build, unpacks
-it, and runs the binary with no arguments to show you the help output:
+it, and runs the binary with no arguments to show you the help output: -->
 
 ### 2. 安装 Urbit
 
@@ -107,7 +107,7 @@ curl -L https://urbit.org/install/macos-aarch64/latest | tar xzk -s '/.*/urbit/'
 
 {% /tabs %}
 
-If successful, you will see a block of output beginning with the line:
+<!-- If successful, you will see a block of output beginning with the line: -->
 
 如果成功的话，你会看到根据以下行开头的输出块：
 
@@ -115,33 +115,37 @@ If successful, you will see a block of output beginning with the line:
 Urbit: a personal server operating function
 ```
 
-### 3. Boot Urbit
+<!-- ### 3. Boot Urbit 
 
 An Urbit instance is intrinsically tied to a unique identity called an **Urbit
 ID**. There are five classes of Urbit ID, but we will consider two here: comets
-and planets.
+and planets. -->
 
 ### 3. 启动 Urbit 
 
 一个 Urbit 实例本质上是与一个称为**Urbit ID**的独特身份相关联。Urbit ID 有五类，但我们在这里只考虑两类：彗星 (comets) 和行星 (planets)。
 
-- **Comet:** A comet is an identity which anyone can generate themselves, for
+<!-- - **Comet:** A comet is an identity which anyone can generate themselves, for 
   free. It's a good option to try out Urbit. Comets are limited by the fact they
   cannot be "factory reset", meaning if your urbit somehow becomes broken or
   corrupted then you'll have to start again with a new identity. In that sense,
-  they are impermanent.
+  they are impermanent. -->
   
 - **彗星：** 彗星是一种任何人都可以免费生成的个人身份。这是一种尝试 Urbit 的好选择。彗星的局限性在于它们不能 "出厂重置 (factory reset)"。这意味着如果你的 Urbit 以某种方式被破坏或损坏，那么你将不得不用一个全新的身份重新开始。从这个意义上说，它们是无常的。
 
-- **Planet:** A planet is a permanent identity which you own forever. Planets
+<!-- - **Planet:** A planet is a permanent identity which you own forever. Planets 
   are the class intended for individuals. While there are essentially an
   unlimited number of comets, planets are more scarce (preventing spamming,
   among other things). This scarcity means they usually aren't free (though
   sometimes nice people give them away). This guide will assume you've already
   acquired a planet. If you haven't, you can refer to the ["Get an Urbit ID"
-  guide](/getting-started/get-id) before continuing.
+  guide](/getting-started/get-id) before continuing. -->
+  
+- **行星：** 行星是一个永久的身份，你永远拥有它。行星是为个人设计的类别。彗星的数量基本上是无限的，而行星则更为稀缺（其中一个例子就是防止垃圾邮件）。这种稀缺性意味着它们通常不是免费的（但有时候，好心人会赠送它们）。本指南假设你已经获得了一个行星。如果你没有的话，你可以在继续本指南之前参考["获取 Urbit ID"指南](/getting-started/get-id)。
 
-Follow the instructions for your case:
+<!-- Follow the instructions for your case: -->
+
+按照你的案例说明进行操作：
 
 {% tabs %}
 
@@ -150,16 +154,24 @@ Follow the instructions for your case:
 In the terminal, with the `urbit` binary you installed in the previous step, a
 comet can be booted with the `-c` option:
 
+在终端中，使用你在上一步安装的 `urbit` 二进制文件，以 `-c` 选项来启动彗星。
+
 ```bash
 ./urbit -c mycomet
 ```
 
-> `mycomet` will be the name given to the folder it will create. 
->  You can choose any name you like.
+<!-- > `mycomet` will be the name given to the folder it will create.  
+>  You can choose any name you like. -->
 
-It may take a while to initialize the comet (usually only a couple of minutes,
+> `mycomet` 将是它所创建的文件夹的名称。
+> 你可以选择任何你喜欢的名称。
+
+<!-- It may take a while to initialize the comet (usually only a couple of minutes, 
 but it could take longer). When it's done, it'll take you to the dojo prompt
-(the dojo is Urbit's shell):
+(the dojo is Urbit's shell): -->
+
+初始化彗星可能需要一些时间（通常只需几分钟，但可能需要更长的时间）。完成后，它将带你进入 dojo 提示界面
+(dojo 是 Urbit 的外壳 (shell))。
 
 ```
 ames: live on 31337
@@ -168,17 +180,26 @@ http: loopback live on http://localhost:12321
 ~sampel_marzod:dojo>
 ```
 
-You can shut down the comet again by typing `|exit` in the dojo or hitting
+<!-- You can shut down the comet again by typing `|exit` in the dojo or hitting 
 `Ctrl+D`. When it's first shut down, the runtime will be copied inside the data
-folder, so you can start it up again by doing:
+folder, so you can start it up again by doing:-->
+
+你可以通过在 dojo 中输入 `|exit` 或者按 `Ctrl+D` 来再次关闭彗星。当它第一次被关闭时，runtime 将被复制到数据文件夹内，所以你可以通过以下方式再次启动它。
 
 ```bash
 ./mycomet/.run
 ```
-> Linux users need to run this command in another terminal window to access
+<!-- > Linux users need to run this command in another terminal window to access 
 > your urbit on port 80 every time you upgrade your runtime (otherwise it'll 
 > default to port 8080):
->
+> 
+> ```shell
+> sudo apt-get install libcap2-bin
+> sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
+> ``` -->
+  
+> Linux 用户需要在另一个终端窗口中运行这个命令，以便在每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> 
 > ```shell
 > sudo apt-get install libcap2-bin
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
