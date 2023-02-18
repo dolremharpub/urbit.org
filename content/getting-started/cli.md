@@ -36,7 +36,7 @@ guide](/getting-started/cloud-hosting) which walks through setting up Urbit on a
 
 ### 1. 系统要求 {% #about-swap-space %}. 
 
-- **处理器**: 单核
+- **处理器**: 单核 (1 core)
 - **内存**: 2GB
 - **存储**：至少几GB，最好是 40-50GB
 - **网络**：任何网络
@@ -46,12 +46,6 @@ and will fail to boot without it. Urbit usually only uses a portion of this, so
 it's possible to use a swap file to makeup for a shortfall without degrading
 performance. For instructions on how to configure a swap file on Linux, see
 [this linuxize.com guide](https://linuxize.com/post/create-a-linux-swap-file/).-->
-
-**A note on memory**: By default, the Urbit runtime needs 2GB of free memory,
-and will fail to boot without it. Urbit usually only uses a portion of this, so
-it's possible to use a swap file to makeup for a shortfall without degrading
-performance. For instructions on how to configure a swap file on Linux, see
-[this linuxize.com guide](https://linuxize.com/post/create-a-linux-swap-file/).
 
 **关于内存的说明**：默认情况下，Urbit runtime 需要2GB的可用内存，没有符合的情况下将无法启动。
 Urbit 通常只使用其中的一部分，所以可以使用交换文件来弥补内存的不足而不会降低
@@ -65,11 +59,17 @@ it's advisable to have 40 or 50GB of disk space available, so you don't have to
 worry about running out for a long time. If you don't have that much, your ship
 will still run fine, but you may run out of space some months down the line.
 
+**关于存储的说明**：Urbit 将它处理的每一个事件都保存在其[事件日志](https://developers.urbit.org/reference/glossary/eventlog)。这意味着它的磁盘使用量会随着时间的推移而慢慢增加。在事件日志被截断之前，建议你有40或50GB的可用磁盘空间，这样你就可以在很长一段时间内不必担心磁盘空间不足的问题。即使你没有那么多的磁盘空间，你的飞船 (ship) 仍然可以正常运行，但你可能会在几个月后耗尽磁盘空间。
+
 ### 2. Install Urbit
 
 Choose your operating system and run the given command in your terminal to
 download the Urbit runtime, this command downloads the latest build, unpacks
 it, and runs the binary with no arguments to show you the help output:
+
+### 2. 安装 Urbit
+
+选择你的操作系统，并在你的终端中运行给定的命令来下载 Urbit runtime。该命令下载最新的构建版本，将其解压缩，并运行不带参数的二进制文件以显示帮助输出：
 
 {% tabs %}
 
@@ -109,6 +109,8 @@ curl -L https://urbit.org/install/macos-aarch64/latest | tar xzk -s '/.*/urbit/'
 
 If successful, you will see a block of output beginning with the line:
 
+如果成功的话，你会看到根据以下行开头的输出块：
+
 ```
 Urbit: a personal server operating function
 ```
@@ -119,11 +121,17 @@ An Urbit instance is intrinsically tied to a unique identity called an **Urbit
 ID**. There are five classes of Urbit ID, but we will consider two here: comets
 and planets.
 
+### 3. 启动 Urbit 
+
+一个 Urbit 实例本质上是与一个称为**Urbit ID**的独特身份相关联。Urbit ID 有五类，但我们在这里只考虑两类：彗星 (comets) 和行星 (planets)。
+
 - **Comet:** A comet is an identity which anyone can generate themselves, for
   free. It's a good option to try out Urbit. Comets are limited by the fact they
   cannot be "factory reset", meaning if your urbit somehow becomes broken or
   corrupted then you'll have to start again with a new identity. In that sense,
   they are impermanent.
+  
+- **彗星：** 彗星是一种任何人都可以免费生成的个人身份。这是一种尝试 Urbit 的好选择。彗星的局限性在于它们不能 "出厂重置 (factory reset)"。这意味着如果你的 Urbit 以某种方式被破坏或损坏，那么你将不得不用一个全新的身份重新开始。从这个意义上说，它们是无常的。
 
 - **Planet:** A planet is a permanent identity which you own forever. Planets
   are the class intended for individuals. While there are essentially an
