@@ -344,15 +344,24 @@ Talk, and Terminal. -->
 
 一旦打开后，你就会看到登录屏幕。粘贴你在上一步中从 dojo 复制的网络登录代码，然后点击 "继续 (continue)"。你现在将被带到你的主屏幕，其中包含一些默认应用程序的磁贴，如 Groups、Talk 和 Terminal。  
   
-### 5. Runtime Upgrades
+<!-- ### 5. Runtime Upgrades -->
 
-When new versions of the Urbit runtime (Vere) are available, you'll have to 
+### 5. Runtime 升级
+
+<!-- When new versions of the Urbit runtime (Vere) are available, you'll have to  
 shutdown your urbit and then run the `next` command in order to upgrade.
 ```
 :dojo> |exit
 <pier>/.run next
+``` -->
+
+当新版本的 Urbit runtime（Vere）可用时，你必须关闭你的 Urbit，然后运行 `next` 命令才能升级。
 ```
-Note that `<pier>` in this case is the folder that was created when you first booted
+:dojo> |exit
+<pier>/.run next
+```
+
+<!-- Note that `<pier>` in this case is the folder that was created when you first booted 
 your urbit. When you run this command your urbit will download the latest binary
 and place it inside the `.bin` directory inside your pier folder. You can then 
 start your ship with the following and you'll be on the latest runtime version:
@@ -366,19 +375,39 @@ start your ship with the following and you'll be on the latest runtime version:
 > ```shell
 > sudo apt-get install libcap2-bin
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
+> ``` -->
+  
+请注意，`<pier>` 在这种情况下是你第一次启动 Urbit 时所创建的文件夹。当你运行此命令时，你的 Urbit 将下载最新的二进制文件，并把其放置在你的 pier 文件夹内的 `.bin` 目录中。然后，你可以通过以下方法来启动你的飞船，以便使用最新的 runtime 版本。
+```
+<pier>/.run
+```
+> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> ```shell
+> sudo apt-get install libcap2-bin
+> sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ```
-
-If you've been running Urbit for a while (from before runtime version 1.9) 
+  
+<!-- If you've been running Urbit for a while (from before runtime version 1.9)  
 and these `.run` commands don't work for you, it probably means you need to 
 [dock](https://operators.urbit.org/manual/running/vere#dock) your pier. 
-You can do this with the following command:
+You can do this with the following command: 
 ```
 ./urbit dock <pier>
 ```
 Then `.run` should work as expected and future runtime upgrades can be done via
-`next`.
+`next`. -->
+  
+如果你已经运行 Urbit 一段时间（从 runtime 1.9版本之前开始），而这些 `.run` 命令对你不起任何作用。这可能意味着你需要 dock 你的 pier。你可以使用以下命令执行此操作：
+```
+./urbit dock <pier>
+```
+然后，`.run` 应该能像预期的那样操作，而未来的 runtime 升级可以通过 `next` 来完成。
 
-## Next steps
+<!-- ## Next steps 
 
 Learn how to [get around your
-urbit](/getting-started/getting-around).
+urbit](/getting-started/getting-around). -->
+  
+## 下一步
+
+学习如何[使用你的 Urbit](/getting-started/getting-around)。
