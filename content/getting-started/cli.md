@@ -198,7 +198,7 @@ folder, so you can start it up again by doing:-->
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ``` -->
   
-> Linux 用户需要在另一个终端窗口中运行以下命令，以便在每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
 > 
 > ```shell
 > sudo apt-get install libcap2-bin
@@ -228,7 +228,7 @@ the following command in the dojo: -->
 <!-- It'll spit out a code that'll look something like `lidlut-tabwed-pillex-ridrup`. 
 Copy the code it gives you to the clipboard. -->
 
-它将生成一个类似于 lidlut-tabwed-pillex-ridrup 的代码，然后将这个代码复制到剪贴板上。
+它将生成一个类似于 `lidlut-tabwed-pillex-ridrup` 的代码，然后将这个代码复制到剪贴板上。
 
 {% /tab %}
 
@@ -268,37 +268,53 @@ http: loopback live on http://localhost:12321
 ~sampel-palnet:dojo>
 ```
 
-You can shut down the planet again by typing `|exit` in the dojo or hitting
+<!-- You can shut down the planet again by typing `|exit` in the dojo or hitting 
 `Ctrl+D`. When it's first shut down, the runtime will be copied inside the data
-folder, so you can start it up again by doing:
+folder, so you can start it up again by doing: -->
+  
+你可以通过在 dojo 中输入 `|exit` 或者按 `Ctrl+D` 来再次关闭行星。当它第一次被关闭时，runtime 将被复制到数据文件夹内，所以你可以通过以下方式再次启动它。
 
 ```bash
 ./sampel-palnet/.run
 ```
-> Linux users need to run this command in another terminal window to access
+<!-- > Linux users need to run this command in another terminal window to access
 > your urbit on port 80 every time you upgrade your runtime (otherwise it'll 
 > default to port 8080):
 >
 > ```shell
 > sudo apt-get install libcap2-bin
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
-> ```
+> ``` -->
 
-Most people use their urbit via Landscape, the browser-based UI. 
+> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> 
+> ```shell
+> sudo apt-get install libcap2-bin
+> sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
+> ``` 
+
+<!-- Most people use their urbit via Landscape, the browser-based UI.  
 In order to access Landscape, you need your web login code.
-You can get this by running the following command in the dojo:
+You can get this by running the following command in the dojo: -->
+  
+最后，大多数人是通过 Landscape，即基于浏览器的用户界面来使用他们的 Urbit。为了访问 Landscape，你需要你的网络登录代码。你可以通过在 dojo 中运行以下命令来获得这个代码：
 
 ```
 +code
 ```
 
-It'll spit out a code that'll look something like `lidlut-tabwed-pillex-ridrup`
+<!-- It'll spit out a code that'll look something like `lidlut-tabwed-pillex-ridrup` 
 (note this is a separate code to your master ticket). Copy the code it gives you
-to the clipboard.
+to the clipboard. -->
+  
+它将生成一个类似于 `lidlut-tabwed-pillex-ridrup` 的代码 (请注意，这与主票 (master ticket) 的代码不同)，然后将这个代码复制到剪贴板上。
 
 One last thing: The `sampel-palnet-1.key` keyfile is only needed once, when you
 first boot your planet. **Now that it's booted, it's good security practice to
 delete that keyfile.**
+
+最后一件事：`sampel-palnet-1.key` 密钥文件只需要一次，那就是当你
+第一次启动行星的时候。**现在它已经启动了，删除该密钥文件是很好的安全做法。**
 
 {% /tab %}
 
@@ -306,22 +322,28 @@ delete that keyfile.**
 
 ### 4. Login
 
-While your urbit is running, the web interface called *Landscape* can be
+<!-- While your urbit is running, the web interface called *Landscape* can be 
 accessed in the browser. Its URL will usually be either `localhost` or
 `localhost:8080`, depending on your platform. To check the address, you can look
-at the boot messages in the terminal. You should see a line like:
+at the boot messages in the terminal. You should see a line like: -->
 
+当你的 Urbit 在运行时，可以在浏览器中访问名为 Landscape 的网络界面。它的 URL 通常是 localhost 或者 localhost:8080，这取决于你的平台。若要检查地址，你可以在终端中查看启动信息。你应该看到以下这一行字：
+  
 ```
 http: web interface live on http://localhost:8080
 ```
 
-Whichever address and port it says there is the one to open in the browser.
+<!-- Whichever address and port it says there is the one to open in the browser. -->
+  
+无论它说的是哪个地址和端口，都会有一个可以在浏览器中打开。
 
-Once open, you'll be presented with the login screen. Paste in the web login
+<!-- Once open, you'll be presented with the login screen. Paste in the web login 
 code you copied from the dojo in the previous step and hit "continue". You'll
 now be taken to your homescreen, with tiles for the default apps such as Groups,
-Talk, and Terminal.
+Talk, and Terminal. -->
 
+一旦打开后，你就会看到登录屏幕。粘贴你在上一步中从 dojo 复制的网络登录代码，然后点击 "继续 (continue)"。你现在将被带到你的主屏幕，其中包含一些默认应用程序的磁贴，如 Groups、Talk 和 Terminal。  
+  
 ### 5. Runtime Upgrades
 
 When new versions of the Urbit runtime (Vere) are available, you'll have to 
