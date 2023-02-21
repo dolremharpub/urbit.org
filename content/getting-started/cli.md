@@ -377,7 +377,7 @@ start your ship with the following and you'll be on the latest runtime version:
 ```
 <pier>/.run
 ```
-> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级 runtime 时在80端口访问你的 Urbit（否则它将默认为8080端口）。
 > ```shell
 > sudo apt-get install libcap2-bin
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
@@ -393,7 +393,7 @@ You can do this with the following command:
 Then `.run` should work as expected and future runtime upgrades can be done via
 `next`. -->
   
-如果你已经运行 Urbit 一段时间（从 runtime 1.9 版本之前开始），而这些 `.run` 命令对你不起任何作用的话，那么这可能意味着你需要 dock 你的 pier。你可以使用以下命令来执行此操作：
+如果你已经运行 Urbit 一段时间（从 runtime 1.9 版本之前开始），而这些 `.run` 命令对你不起任何作用的话，那么这可能意味着你需要 [dock](https://operators.urbit.org/manual/running/vere#dock) 你的 pier。你可以使用以下命令来执行此操作：
 ```
 ./urbit dock <pier>
 ```
