@@ -121,7 +121,7 @@ and planets. -->
 
 ### 3. 启动 Urbit 
 
-一个 Urbit 实例本质上是与一个称为**Urbit ID**的独特身份相关联。Urbit ID 有五类，但我们在这里只考虑两类：彗星 (comets) 和行星 (planets)。
+一个 Urbit 实例本质上是与一个称为 **Urbit ID** 的独特身份相关联。Urbit ID 有五类，但我们在这里只考虑两类：彗星 (comets) 和行星 (planets)。
 
 <!-- - **Comet:** A comet is an identity which anyone can generate themselves, for 
   free. It's a good option to try out Urbit. Comets are limited by the fact they
@@ -139,7 +139,7 @@ and planets. -->
   acquired a planet. If you haven't, you can refer to the ["Get an Urbit ID"
   guide](/getting-started/get-id) before continuing. -->
   
-- **行星：** 行星是一个永久的身份，你永远拥有它。行星是为个人设计的类别。彗星的数量基本上是无限的，而行星则更为稀缺（其中一个例子就是防止垃圾邮件）。这种稀缺性意味着它们通常不是免费的（但有时候，好心人会赠送它们）。本指南假设你已经获得了一个行星。如果你没有的话，你可以在继续本指南之前参考["获取 Urbit ID"指南](/getting-started/get-id)。
+- **行星：** 行星是一个永久性身份，你可以永远拥有它。行星是为个人设计的类别。彗星的数量基本上是无限的，而行星则更为稀缺（其中一个用例就是防止垃圾邮件）。这种稀缺性意味着它们通常不是免费的（但有时候，好心人会赠送它们）。本指南假设你已经获得了一个行星。如果你没有的话，可以在继续本指南之前参考["获取 Urbit ID"指南](/getting-started/get-id)。
 
 <!-- Follow the instructions for your case: -->
 
