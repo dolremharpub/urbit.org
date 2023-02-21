@@ -16,8 +16,8 @@ description = ""
 
 <!-- We now recommend that users that are not comfortable with the [CLI interface](/getting-started/cli) run Urbit with a [hosting service](/getting-started/hosted) or an Urbit-native computer like [Native Planet](https://www.nativeplanet.io/). -->
 
-我们现在建议那些不习惯 [CLI 界面](/getting-started/cli) 的用户使用 [托管服务提供商](/getting-started/hosted) 或像 [Native Planet] 这样的 Urbit 原生计算机来运行 Urbit （https://www.nativeplanet.io/）。
+我们现在建议那些不熟悉 [CLI 界面](/getting-started/cli) 的用户使用 [托管服务提供商](/getting-started/hosted) 或像 [Native Planet](https://www.nativeplanet.io/) 这样的 Urbit 原生计算机来运行 Urbit。
 
 <!-- Whichever way you run your urbit, you can also now use it with a desktop interface such as [Scene](https://tirrel.io/scene/index.html), or the soon-to-be released [Realm](https://www.holium.com/) application. -->
 
-无论你以何种方式来运行你的 Urbit，你现在都可以通过桌面界面，如[Scene](https://tirrel.io/scene/index.html)，或即将发布的 [Realm](https://www.holium.com/)应用程序来运行它。
+无论你以何种方式来运行你的 Urbit，你现在都可以通过桌面界面，如 [Scene](https://tirrel.io/scene/index.html)，或即将发布的 [Realm](https://www.holium.com/) 应用程序来运行它。
