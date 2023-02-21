@@ -152,7 +152,7 @@ and planets. -->
 <!-- In the terminal, with the `urbit` binary you installed in the previous step, a 
 comet can be booted with the `-c` option: -->
 
-在终端中，使用你在上一步安装的 `urbit` 二进制文件，以 `-c` 选项来启动彗星。
+在终端中，使用你在上一步安装的 `urbit` 二进制文件，以 `-c` 选项来启动彗星：
 
 ```bash
 ./urbit -c mycomet
@@ -168,8 +168,7 @@ comet can be booted with the `-c` option: -->
 but it could take longer). When it's done, it'll take you to the dojo prompt
 (the dojo is Urbit's shell): -->
 
-初始化彗星可能需要一些时间（通常只需几分钟，但可能需要更长的时间）。完成后，它将带你进入 dojo 提示界面
-(dojo 是 Urbit 的外壳 (shell))。
+初始化彗星可能需要一些时间（通常只需几分钟，但可能需要更长的时间）。完成后，它将带你进入 dojo 提示界面 (dojo 是 Urbit 的外壳 (shell))：
 
 ```
 ames: live on 31337
@@ -182,7 +181,7 @@ http: loopback live on http://localhost:12321
 `Ctrl+D`. When it's first shut down, the runtime will be copied inside the data
 folder, so you can start it up again by doing:-->
 
-你可以通过在 dojo 中输入 `|exit` 或者按 `Ctrl+D` 来再次关闭彗星。当它第一次被关闭时，runtime 将被复制到数据文件夹内，所以你可以通过以下方式再次启动它。
+你可以通过在 dojo 中输入 `|exit` 或者按 `Ctrl+D` 来再次关闭彗星。当它第一次被关闭时，runtime 将被复制到数据文件夹内，所以你可以通过以下方式再次启动它：
 
 ```bash
 ./mycomet/.run
@@ -239,7 +238,7 @@ the passport backup or you got your planet by another method, you can instead
 login to [Bridge](https://bridge.urbit.org/), select your planet, go to the OS
 section, and hit the "Download Keyfile" button. -->
   
-为了启动一个行星，你需要一份属于它的私钥副本。如果你是通过领取链接来获得你的行星，那么你下载的护照备份 `.zip` 文件将包含一个类似于`sampel-palnet-1.key` 的文件。如果你没有护照备份，或者你通过其他方法得到你的行星，那么你可以登录 [桥接 (Bridge)](https://bridge.urbit.org/)来选择你的行星，然后进入操作系统部分，并点击 "下载密钥文件 "按钮。
+为了启动一个行星，你需要一份属于它的私钥副本。如果你是通过领取链接来获得你的行星，那么你下载的护照备份 (passport backup) `.zip` 文件将包含一个类似于 `sampel-palnet-1.key` 的文件。如果你没有护照备份，或者你通过其他方法得到你的行星，那么你可以登录 [桥接 (Bridge)](https://bridge.urbit.org/) 来选择你的行星，然后进入操作系统部分，并点击 "下载密钥文件 "按钮。
 
 <!-- Back in the terminal, with the `urbit` binary you installed in the previous 
 step, you can boot your planet with the following command (replacing
@@ -257,7 +256,7 @@ It may take a while to initialize the planet (usually only a couple of minutes,
 but it could take longer). When it's done, it'll take you to the dojo prompt
 (the dojo is Urbit's shell): -->
   
-这将创建一个带有你的行星名称的文件夹，并开始启动运行。初始化行星可能需要一些时间（通常只需几分钟，但可能需要更长的时间）。完成后，它将带你进入 dojo 提示界面(dojo 是 Urbit 的外壳 (shell))。
+这将创建一个带有你的行星名称的文件夹，并开始启动运行。初始化行星可能需要一些时间（通常只需几分钟，但可能需要更长的时间）。完成后，它将带你进入 dojo 提示界面 (dojo 是 Urbit 的外壳 (shell)):
 
 ```
 ames: live on 31337
@@ -284,7 +283,7 @@ folder, so you can start it up again by doing: -->
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ``` -->
 
-> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级 runtime 时在80端口访问你的 Urbit（否则它将默认为8080端口）：
 > 
 > ```shell
 > sudo apt-get install libcap2-bin
@@ -311,8 +310,7 @@ One last thing: The `sampel-palnet-1.key` keyfile is only needed once, when you
 first boot your planet. **Now that it's booted, it's good security practice to
 delete that keyfile.**
 
-最后一件事：`sampel-palnet-1.key` 密钥文件只需要一次，那就是当你
-第一次启动行星的时候。**现在它已经启动了，删除该密钥文件是很好的安全做法。**
+最后一件事：`sampel-palnet-1.key` 密钥文件只需要一次，那就是当你第一次启动行星的时候。**现在它已经启动了，因此删除该密钥文件是一种很好的安全做法。**
 
 {% /tab %}
 
@@ -340,7 +338,7 @@ code you copied from the dojo in the previous step and hit "continue". You'll
 now be taken to your homescreen, with tiles for the default apps such as Groups,
 Talk, and Terminal. -->
 
-一旦打开后，你就会看到登录屏幕。粘贴你在上一步中从 dojo 复制的网络登录代码，然后点击 "继续 (continue)"。你现在将被带到你的主屏幕，其中包含一些默认应用程序的磁贴，如 Groups、Talk 和 Terminal。  
+一旦打开后，你就会看到登录屏幕。粘贴你在上一步中从 dojo 复制的网络登录代码，然后点击 "继续"。你现在将被带到你的主屏幕，其中包含一些默认应用程序的磁贴，如 Groups、Talk 和 Terminal。  
   
 <!-- ### 5. Runtime Upgrades -->
 
@@ -375,7 +373,7 @@ start your ship with the following and you'll be on the latest runtime version:
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ``` -->
   
-请注意，`<pier>` 在这种情况下是你第一次启动 Urbit 时所创建的文件夹。当你运行此命令时，你的 Urbit 将下载最新的二进制文件，并把其放置在你的 pier 文件夹内的 `.bin` 目录中。然后，你可以通过以下方法来启动你的飞船，以便使用最新的 runtime 版本。
+请注意，`<pier>` 在这种情况下是你第一次启动 Urbit 时所创建的文件夹。当你运行此命令时，你的 Urbit 将下载最新的二进制文件，并把其放置在你的 pier 文件夹内的 `.bin` 目录中。然后，你可以通过以下方法来启动你的飞船，以便使用最新版本的 runtime。
 ```
 <pier>/.run
 ```
@@ -395,11 +393,11 @@ You can do this with the following command:
 Then `.run` should work as expected and future runtime upgrades can be done via
 `next`. -->
   
-如果你已经运行 Urbit 一段时间（从 runtime 1.9版本之前开始），而这些 `.run` 命令对你不起任何作用。这可能意味着你需要 dock 你的 pier。你可以使用以下命令执行此操作：
+如果你已经运行 Urbit 一段时间（从 runtime 1.9 版本之前开始），而这些 `.run` 命令对你不起任何作用的话，那么这可能意味着你需要 dock 你的 pier。你可以使用以下命令来执行此操作：
 ```
 ./urbit dock <pier>
 ```
-然后，`.run` 应该能像预期的那样操作，而未来的 runtime 升级可以通过 `next` 来完成。
+然后，`.run` 应该能像预期的那样操作，而未来的 runtime 升级也可以通过 `next` 来完成。
 
 <!-- ## Next steps 
 
