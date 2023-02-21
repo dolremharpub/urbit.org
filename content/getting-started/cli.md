@@ -17,8 +17,7 @@ can be run on your local machine or a server in the cloud, we just cover the
 local case here. The runtime is what interprets the Urbit kernel code (Arvo)
 into commands your specific machine (macOS or Linux) understands. -->
 
-本指南涵盖使用命令行来运行 Urbit runtime（Vere）。这可以在你的本地计算机或云端服务器上运行，我们在这里只介绍
-本地计算机的案例。Runtime 是将 Urbit 内核代码 (Arvo) 转化为你的特定机器 (macOS 或 Linux) 所能理解的命令。
+本指南涵盖使用命令行来运行 Urbit runtime（Vere）。这可以在你的本地计算机或云端服务器上运行，但我们在这里只介绍本地计算机的案例。Runtime 是将 Urbit 内核代码 (Arvo) 解释为你的特定机器 (macOS 或 Linux) 所能理解的命令。
 
 <!-- Note there is a much more comprehensive [cloud hosting 
 guide](/getting-started/cloud-hosting) which walks through setting up Urbit on a
