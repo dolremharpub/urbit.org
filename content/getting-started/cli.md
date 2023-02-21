@@ -406,4 +406,4 @@ urbit](/getting-started/getting-around). -->
   
 ## 下一步
 
-学习如何[使用你的 Urbit](/getting-started/getting-around)。
+学习 [了解如何使用你的 Urbit](/getting-started/getting-around)。
