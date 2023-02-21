@@ -149,8 +149,8 @@ and planets. -->
 
 {% tab label="Boot a Comet" %}
 
-In the terminal, with the `urbit` binary you installed in the previous step, a
-comet can be booted with the `-c` option:
+<!-- In the terminal, with the `urbit` binary you installed in the previous step, a 
+comet can be booted with the `-c` option: -->
 
 在终端中，使用你在上一步安装的 `urbit` 二进制文件，以 `-c` 选项来启动彗星。
 
@@ -196,7 +196,7 @@ folder, so you can start it up again by doing:-->
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ``` -->
   
-> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级运行时在80端口访问你的 Urbit（否则它将默认为8080端口）。
+> Linux 用户需要在另一个终端窗口中运行以下命令，以便每次升级 runtime 时在80端口访问你的 Urbit（否则它将默认为8080端口）。
 > 
 > ```shell
 > sudo apt-get install libcap2-bin
