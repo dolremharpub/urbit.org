@@ -24,7 +24,7 @@ guide](/getting-started/cloud-hosting) which walks through setting up Urbit on a
 [Digital Ocean](https://www.digitalocean.com/) VPS. -->
 
 请注意，这里有一个更全面的[云托管操作指南](/getting-started/cloud-hosting)，其中介绍了如何在
-[Digital Ocean](https://www.digitalocean.com/)VPS上设置 Urbit。
+[Digital Ocean](https://www.digitalocean.com/) VPS上设置 Urbit。
 
 <!-- ### 1. System Requirements {% #about-swap-space %} 
 
@@ -47,8 +47,7 @@ performance. For instructions on how to configure a swap file on Linux, see
 [this linuxize.com guide](https://linuxize.com/post/create-a-linux-swap-file/).-->
 
 **关于内存的说明**：默认情况下，Urbit runtime 需要2GB的可用内存，没有符合的情况下将无法启动。
-Urbit 通常只使用其中的一部分，所以可以使用交换文件来弥补内存的不足而不会降低
-性能。有关如何在 Linux 上配置交换文件的说明，请参阅
+Urbit 通常只使用其中的一部分，所以可以使用交换文件来弥补内存的不足而不会降低性能。有关如何在 Linux 上配置交换文件的说明，请参阅
 [这个 linuxize.com 指南](https://linuxize.com/post/create-a-linux-swap-file/)。
 
 <!-- **A note on storage**: Urbit saves every event it processes to its [Event 
@@ -58,7 +57,7 @@ it's advisable to have 40 or 50GB of disk space available, so you don't have to
 worry about running out for a long time. If you don't have that much, your ship
 will still run fine, but you may run out of space some months down the line. -->
 
-**关于存储的说明**：Urbit 将它处理的每一个事件都保存在其[事件日志](https://developers.urbit.org/reference/glossary/eventlog)。这意味着它的磁盘使用量会随着时间的推移而慢慢增加。在事件日志被截断之前，建议你有40或50GB的可用磁盘空间，这样你就可以在很长一段时间内不必担心磁盘空间不足的问题。即使你没有那么多的磁盘空间，你的飞船 (ship) 仍然可以正常运行，但你可能会在几个月后耗尽磁盘空间。
+**关于存储的说明**：Urbit 将它处理的每一个事件都保存在其[事件日志 (Event Log)](https://developers.urbit.org/reference/glossary/eventlog)。这意味着它的磁盘使用量会随着时间的推移而慢慢增加。在事件日志被截断之前，建议你有40或50GB的可用磁盘空间，这样你就可以在很长一段时间内不必担心磁盘空间不足的问题。即使你没有那么多的磁盘空间，你的飞船 (ship) 仍然可以正常运行，但你可能会在几个月后耗尽磁盘空间。
 
 <!-- ### 2. Install Urbit 
 
