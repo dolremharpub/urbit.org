@@ -1,37 +1,64 @@
-+++
+<!-- +++ 
 title = "Overview"
 description = "Getting around your urbit"
 tag = "around"
 weight = 0
++++ -->
+
++++
+title = "概述"
+description = "了解如何使用你的 Urbit"
+tag = "around"
+weight = 0
 +++
 
-### 1. Get oriented
+<!-- ### 1. Get oriented 
 
-After you've logged into your Urbit for the first time, you'll an interface called Landscape – a way interact with the network and applications.  You'll also see a few pre-installed applications: Terminal, Groups, and Talk. More on them in a moment.
+After you've logged into your Urbit for the first time, you'll an interface called Landscape – a way interact with the network and applications.  You'll also see a few pre-installed applications: Terminal, Groups, and Talk. More on them in a moment. -->
+
+### 1. 掌握方向
+
+首次登录你的 Urbit 之后，你会看到一个名为 Landscape 的界面 —— 一种与网络和应用程序交互的方式。你还会看到一些预装的应用程序: Terminal，Groups，和 Talk。稍后会详细介绍它们。
 
 ![](https://storage.googleapis.com/media.urbit.org/site/getting-started/get-oriented.png)
 
-Above those are buttons to view System Preferences and check out notifications for messages and application activity. The search bar helps you surface applications you already have installed, or discover developers and applications across the Urbit network.
+<!-- Above those are buttons to view System Preferences and check out notifications for messages and application activity. The search bar helps you surface applications you already have installed, or discover developers and applications across the Urbit network. -->
+
+在它们的上面是查看系统偏好设置以及查看信息和应用程序活动通知的按钮。搜索栏可以帮助你找到已安装的应用程序，或查询基于 Urbit 网络的应用程序以及其开发者。
 
 ![](https://storage.googleapis.com/media.urbit.org/site/getting-started/about-system.png)
 
-You'll likely want to focus on finding and joining new communities, which you can do with the **Groups** app.
+<!-- You'll likely want to focus on finding and joining new communities, which you can do with the **Groups** app. -->
 
-### 2. Join a few groups
+如果你想专注于寻找和加入新社区，那么你可以通过**Groups**应用程序来做到这一点。
 
-Joining public groups is simple – just search for the group host's Urbit ID, and click join. Check out a walk-through of this process in the [Joining groups](/getting-around/joining-groups) guide.
+<!-- ### 2. Join a few groups 
 
-### 3. Install some applications
+Joining public groups is simple – just search for the group host's Urbit ID, and click join. Check out a walk-through of this process in the [Joining groups](/getting-around/joining-groups) guide. -->
+
+### 2. 加入一些群组
+
+加入公共群组很简单 —— 只需搜索群组主人的 Urbit ID，然后点击加入即可。在 [加入群组](/getting-around/joining-groups) 指南中查看此过程的演练。
+
+<!-- ### 3. Install some applications 
 
 Groups are great, but Urbit goes way deeper with apps that are developed specifically for Urbit and use P2P networking for everything.
 
-Check out the [Installing apps](/getting-around/installing-applications) guide for a walk-through on the process of installing Urbit applications.
+Check out the [Installing apps](/getting-around/installing-applications) guide for a walk-through on the process of installing Urbit applications. -->
 
+### 3. 安装一些应用程序
 
-### 4.  Explore interfaces
+群组虽然很棒，但 Urbit 通过使用其 P2P 网络专门为 Urbit 开发应用程序，并贯彻到各个领域.
 
-The default Urbit experience is using Landscape in the browser, but Urbit is also available on native mobile and desktop applications through alternative interfaces.  [Learn more about Urbit interfaces](/getting-started/interfaces).
+查看 [安装应用程序](/getting-around/installing-applications) 指南，以了解安装 Urbit 应用程序的流程。
 
+<!-- ### 4.  Explore interfaces 
+
+The default Urbit experience is using Landscape in the browser, but Urbit is also available on native mobile and desktop applications through alternative interfaces.  [Learn more about Urbit interfaces](/getting-started/interfaces). -->
+
+### 4.  探索界面
+
+默认的 Urbit 体验是在浏览器中使用 Landscape，但 Urbit 也可以通过其他界面在本地移动和桌面应用程序上使用。[了解更多关于 Urbit 界面的信息]（/getting-started/interfaces）。
 
 ### 5. Getting help
 
@@ -40,6 +67,14 @@ If you need help getting around Urbit, the best place to go is the official Urbi
 If your question involves an app, you're better served reaching out to the developer. Many [developers](/ecosystem?type=organizations) have dedicated groups on the network explicitly for this purpose.
 
 If you're having trouble with your planet or the hosting provider that's running your ship, try their support, as they'll have more context and resources to help solve your issue.  And you can always email support@urbit.org if you're having trouble getting onto the network.
+
+### 5. 获得帮助
+
+如果你在使用 Urbit 时需要帮助，最好的地方是 Urbit 官方社区：[`~bitbet-bolbel/urbit-community`](/groups/~bitbet-bolbel/urbit-community)。帮助频道中的人愿意排除故障或提供资源链接以帮助你走出困境。 请注意，由于Urbit社区的规模，加入它可能需要很长的时间。
+
+如果你的问题涉及到一个应用程序，你最好联系一下开发者。许多[开发者](/ecosystem?type=organizations)在网络上有专门的小组，明确用于此目的。
+
+如果你在你的星球或运行你的飞船的主机供应商那里遇到问题，请尝试他们的支持，因为他们会有更多的背景和资源来帮助解决你的问题。 如果你在进入网络时遇到困难，你可以随时发电子邮件到 support@urbit.org。
 
 
 
