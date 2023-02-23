@@ -31,7 +31,7 @@ with a supplied Urbit ID. You can run Urbit yourself if you're comfortable at a
 command-line or willing to learn. Otherwise you should probably use a hosting
 provider &mdash; that is, someone that provides you with an Urbit as a service.-->
 
-使用 Urbit 时需要访问正在运行的**船 (ship)**—— 一个正在运行着的 Urbit OS，而且具备了一个 Urbit ID。如果你对命令行很熟悉或者愿意学习的话，那么你可以尝试自己运行 Urbit。否则你可以考虑使用一个托管服务提供商 —— 也就是把 Urbit 作为一种服务提供给你的人。
+使用 Urbit 时需要访问正在运行的**飞船 (ship)**—— 一个正在运行着的 Urbit OS，而且具备了一个 Urbit ID。如果你对命令行很熟悉或者愿意学习的话，那么你可以尝试自己运行 Urbit。否则你可以考虑使用一个托管服务提供商 —— 也就是把 Urbit 作为一种服务提供给你的人。
 
 <!-- ## Next steps 
 
