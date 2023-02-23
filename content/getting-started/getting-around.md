@@ -30,7 +30,7 @@ After you've logged into your Urbit for the first time, you'll an interface call
 
 <!-- You'll likely want to focus on finding and joining new communities, which you can do with the **Groups** app. -->
 
-如果你想专注于寻找和加入新社区，那么你可以通过**Groups**应用程序来做到这一点。
+如果你想专注于寻找和加入新社区，那么你可以通过 **Groups** 应用程序来做到这一点。
 
 <!-- ### 2. Join a few groups 
 
@@ -58,7 +58,7 @@ The default Urbit experience is using Landscape in the browser, but Urbit is als
 
 ### 4.  探索界面
 
-默认的 Urbit 体验是在浏览器中使用 Landscape，但 Urbit 也可以通过其他界面在本地移动和桌面应用程序上使用。[了解更多关于 Urbit 界面的信息]（/getting-started/interfaces）。
+默认的 Urbit 体验是在浏览器中使用 Landscape，但 Urbit 也可以通过其他界面在本地移动和桌面应用程序上使用。[了解更多有关 Urbit 界面的信息](/getting-started/interfaces)。
 
 <!-- ### 5. Getting help 
 
@@ -74,7 +74,7 @@ If you're having trouble with your planet or the hosting provider that's running
 
 如果你的问题涉及到某个应用程序，那么你最好直接联系开发者。许多 [开发者](/ecosystem?type=organizations) 在网络上有专门为此目的而设立的专门小组。
 
-如果你在使用你的行星或运行你的飞船的托管服务提供商方面遇到问题，请尝试他们的支持，因为他们会有更多的背景和资源来帮助你解决问题。 如果你在连接网络时遇到困难，你可以随时发电子邮件至 support@urbit.org。
+如果你在使用你的行星或运行你的飞船的托管服务提供商方面遇到问题，请先联系他们以获得支持，因为他们会有更多的背景和资源来帮助你解决问题。 如果你在连接网络时遇到困难，你可以随时发电子邮件至 support@urbit.org。
 
 
 <!-- ### 6. Next steps 
