@@ -1,14 +1,36 @@
-+++
+<!-- +++ 
 title = "Get an Urbit ID"
 weight = 2
 description = "How to acquire an Urbit ID"
 tag = "selfhost"
++++ -->
+
++++
+title = "获取一个 Urbit ID"
+weight = 2
+description = "如何获取一个 Urbit ID"
+tag = "自我托管"
 +++
 
-### Types of ID
+
+<!-- ### Types of ID 
 
 There are [five different
 types](https://operators.urbit.org/guides/which-id-should-i-buy) of Urbit ID, but here we'll just be  discussing two types called comets and planets.
+
+**Comets** are free, temporary identities that you can issue yourself and are best-suited for
+short-term usage. **Planets** are permanent identities that are suitable for long-term use.
+
+![](https://storage.googleapis.com/media.urbit.org/site/getting-started/comet-planet.png)
+
+Planets have a unique, four syllable phonetic name and a [sigil](https://urbit.org/blog/creating-sigils), a visual representation of the name. -->
+
+### ID 的类型
+
+There are [five different
+types](https://operators.urbit.org/guides/which-id-should-i-buy) of Urbit ID, but here we'll just be  discussing two types called comets and planets.
+
+Urbit ID 有 [五种不同的类型](https://operators.urbit.org/guides/which-id-should-i-buy)，但在这里我们只讨论两种类型，即彗星和行星。
 
 **Comets** are free, temporary identities that you can issue yourself and are best-suited for
 short-term usage. **Planets** are permanent identities that are suitable for long-term use.
