@@ -121,7 +121,7 @@ and planets. -->
 
 ### 3. 启动 Urbit 
 
-一个 Urbit 实例本质上是与一个称为 **Urbit ID** 的独特身份相关联。Urbit ID 有五类，但我们在这里只考虑两类：彗星 (comets) 和行星 (planets)。
+一个 Urbit 实例本质上是与一个称为 **Urbit ID** 的独特身份相关联。Urbit ID 有五种类型，但我们在这里只考虑两种类型：彗星 (comets) 和行星 (planets)。
 
 <!-- - **Comet:** A comet is an identity which anyone can generate themselves, for 
   free. It's a good option to try out Urbit. Comets are limited by the fact they
