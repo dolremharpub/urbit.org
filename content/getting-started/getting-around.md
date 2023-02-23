@@ -60,25 +60,24 @@ The default Urbit experience is using Landscape in the browser, but Urbit is als
 
 默认的 Urbit 体验是在浏览器中使用 Landscape，但 Urbit 也可以通过其他界面在本地移动和桌面应用程序上使用。[了解更多关于 Urbit 界面的信息]（/getting-started/interfaces）。
 
-### 5. Getting help
+<!-- ### 5. Getting help 
 
 If you need help getting around Urbit, the best place to go is the official Urbit community: [`~bitbet-bolbel/urbit-community`](/groups/~bitbet-bolbel/urbit-community). Those in the Help channel are willing to troubleshoot or provide links to resources to help you get out of a jam.  Note that Urbit Community can take a long time to join due to its size.
 
 If your question involves an app, you're better served reaching out to the developer. Many [developers](/ecosystem?type=organizations) have dedicated groups on the network explicitly for this purpose.
 
-If you're having trouble with your planet or the hosting provider that's running your ship, try their support, as they'll have more context and resources to help solve your issue.  And you can always email support@urbit.org if you're having trouble getting onto the network.
+If you're having trouble with your planet or the hosting provider that's running your ship, try their support, as they'll have more context and resources to help solve your issue.  And you can always email support@urbit.org if you're having trouble getting onto the network. -->
 
 ### 5. 获得帮助
 
-如果你在使用 Urbit 时需要帮助，最好的地方是 Urbit 官方社区：[`~bitbet-bolbel/urbit-community`](/groups/~bitbet-bolbel/urbit-community)。帮助频道中的人愿意排除故障或提供资源链接以帮助你走出困境。 请注意，由于Urbit社区的规模，加入它可能需要很长的时间。
+如果你在使用 Urbit 时需要帮助，最好的地方是 Urbit 官方社区：[`~bitbet-bolbel/urbit-community`](/groups/~bitbet-bolbel/urbit-community)。帮助频道中的那些人愿意排除故障或提供资源链接以帮助你摆脱困境。 请注意，由于 Urbit 社区的规模，可能需要很长时间才能加入。
 
-如果你的问题涉及到一个应用程序，你最好联系一下开发者。许多[开发者](/ecosystem?type=organizations)在网络上有专门的小组，明确用于此目的。
+如果你的问题涉及到某个应用程序，那么你最好直接联系开发者。许多 [开发者](/ecosystem?type=organizations) 在网络上有专门为此目的而设立的专门小组。
 
-如果你在你的星球或运行你的飞船的主机供应商那里遇到问题，请尝试他们的支持，因为他们会有更多的背景和资源来帮助解决你的问题。 如果你在进入网络时遇到困难，你可以随时发电子邮件到 support@urbit.org。
+如果你在使用你的行星或运行你的飞船的托管服务提供商方面遇到问题，请尝试他们的支持，因为他们会有更多的背景和资源来帮助你解决问题。 如果你在连接网络时遇到困难，你可以随时发电子邮件至 support@urbit.org。
 
 
-
-### 6. Next steps
+<!-- ### 6. Next steps 
 
 
 **Learn more**: Check out the [Operators Site](https://operators.urbit.org/) to learn more about running your own Urbit and how the network functions.
@@ -87,4 +86,15 @@ If you're having trouble with your planet or the hosting provider that's running
 
 **Meet up**: Many of the organizations and people behind Urbit host virtual and in-person events on a regular basis — check out the latest on our [Events feed](/events/), or a local [Meetup group](/ecosystem?type=communities).
 
-**Build**: If you're the kind of person who wants to build applications directly for discerning communities with built-in identity and networking primitives, or even jump into the Urbit kernel's core, visit [Urbit Developers](https://developers.urbit.org/) to learn more.
+**Build**: If you're the kind of person who wants to build applications directly for discerning communities with built-in identity and networking primitives, or even jump into the Urbit kernel's core, visit [Urbit Developers](https://developers.urbit.org/) to learn more. -->
+
+### 6. 下一步
+
+
+**了解更多**：查看 [运营者网站](https://operators.urbit.org/) 以了解更多有关运行你自己的 Urbit 以及网络功能的信息。
+
+**保持更新**：[订阅](https://urbit.us11.list-manage.com/subscribe/post?u=972a03db9e0c6c25bb58de8c8&id=be143888d2) Urbit 时事通讯以获取新闻、博客文章以及即将举办的活动。
+
+**会面**：Urbit 背后的许多组织和社区成员会定期举办虚拟和面对面的活动 —— 在我们的 [活动提要](/events/) 或本地 [会面小组](/ecosystem?type=communities) 上查看最新消息。
+
+**构建**：如果你是那种想直接为具有内置身份和网络基元的共识社区构建应用程序的人，或甚至想跳入 Urbit 内核的核心，请访问 [Urbit 开发者](https://developers.urbit.org/) 以了解更多信息。
