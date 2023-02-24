@@ -137,7 +137,7 @@ Learn more about [layer 2 for planets](https://operators.urbit.org/manual/id/lay
 {% /callout %}
 
 
-### Claiming your planet
+<!-- ### Claiming your planet 
 
 An invitation to claim your planet comes in one of two forms.
 
@@ -147,26 +147,34 @@ The second, made available through our [L2 solution](https://operators.urbit.org
 
 ![](https://media.urbit.org/site/getting-started/Server-setup-1.jpg)
 
-Clicking a link to activate a planet on Bridge will take you to page which will generate a Master Ticket for you. Follow the instructions which will prompt you to download a copy of your Passport: your Master Ticket, management proxy, and keyfile. Store your Master Ticket and management proxy somewhere safe, hold on to the keyfile, and proceed to the next step.
+Clicking a link to activate a planet on Bridge will take you to page which will generate a Master Ticket for you. Follow the instructions which will prompt you to download a copy of your Passport: your Master Ticket, management proxy, and keyfile. Store your Master Ticket and management proxy somewhere safe, hold on to the keyfile, and proceed to the next step. 
 
-{% callout %}
+{% callout %} -->
 
 
-### 领取你的行星
+### 认领你的行星
 
-领取你的行星的邀请函有两种形式。
+认领行星的邀请函有两种形式。
 
 第一种是带有 Urbit ID 以及主票 (Master Ticket) 的电子邮件邀请。
 
-第二种是通过我们的 [L2 解决方案](https://operators.urbit.org/manual/id/layer-2-for-planets)提供的，是一个激活码或者在[Bridge](https://bridge.urbit.org)上激活的链接，Urbit ID管理工具。
+第二种是通过我们的 [L2 解决方案](https://operators.urbit.org/manual/id/layer-2-for-planets) 所提供的，是一个激活码或链接，可以在 [桥接 (Bridge)](https://bridge.urbit.org)， 即 Urbit ID 管理工具上激活。
 
 ！[](https://media.urbit.org/site/getting-started/Server-setup-1.jpg)
 
-在Bridge上点击激活星球的链接将带你进入为你生成主票的页面。按照指示，你将下载一份护照的副本：你的主票、管理代理和密钥文件。将你的主票和管理代理保存在一个安全的地方，拿着钥匙文件，继续进行下一个步骤。
+在桥接上点击激活行星的链接将带你进入为你生成主票 (Master Ticket) 的页面。按照指示，你将下载一份护照 (Passport) 的副本：你的主票、管理代理 (management proxy) 以及密钥文件。请将你的主票和管理代理保存在一个安全的地方。有了密钥文件，我们继续进行下一个步骤。
 
-**Claiming L1 planets**
+{% callout %}
+
+<!-- **Claiming L1 planets** 
 
 If you’ve purchased an L1 planet, you won’t need to claim it because you already own it as an NFT. Simply log into Bridge using Metamask or your wallet of choice.
+
+{% /callout %}-->
+
+**认领L1行星**
+
+如果你已经购买了一个L1行星，你将不需要认领它，因为你已经以 NFT 的形式拥有它。你只需使用 Metamask 或你选择的钱包来登录桥接。
 
 {% /callout %}
 
@@ -183,6 +191,19 @@ Now that you have your planet, you can create your keyfile (eg. `sample-palnet.k
 
 - **L1 Planet Purchasers**  
   Log in to Bridge with your Ethereum wallet using Metamask or the wallet of your choice with WalletConnect. Click the “OS” box on the bottom of the page to open the OS page, and then click the **Download Keyfile** button.
+  
+### 使用桥接来获取你的密钥文件
+
+现在你已经有了属于自己的行星，你可以创建你的密钥文件（例如：`sample-palnet.key`)。这是 Urbit 的 P2P 网络上加密和解密信息所需的加密签名。
+
+- **认领的L2行星**  
+  如果你已经认领了L2行星，那么你应该已经下载了你的护照，其中包含了你的主票和密钥文件。
+
+- **主票持有者**  
+  如果你没有下载你的护照但有主票，那么你可以简单地使用你的行星名称和主票密码在桥接的主票选项中登录。点击靠近页面底部的 ID 框，打开ID页面，然后点击 **下载护照** 按钮，其中包含你的密钥文件。
+
+- **L1行星购买者**  
+  使用 Metamask 或您选择的钱包与 WalletConnect 登录到桥接。点击页面底部的 "操作系统 "框，打开操作系统页面，然后点击 **下载密钥文件** 按钮。
 
 ### Next steps
 
