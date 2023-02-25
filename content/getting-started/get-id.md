@@ -29,12 +29,11 @@ Planets have a unique, four syllable phonetic name and a [sigil](https://urbit.o
 
 Urbit ID 有 [五种不同的类型](https://operators.urbit.org/guides/which-id-should-i-buy)，但在这里我们只讨论两种类型，即彗星和行星。
 
-**彗星** 是免费的临时身份，你可以自己签发，但只适合短期使用。**行星** 是永久性身份，适合长期使用。
+**彗星**是免费的临时身份，你可以自己签发，但只适合短期使用。**行星**是永久性身份，适合长期使用。
 
 ![](https://storage.googleapis.com/media.urbit.org/site/getting-started/comet-planet.png)
 
-Planets have a unique, four syllable phonetic name and a [sigil](https://urbit.org/blog/creating-sigils), a visual representation of the name.
-
+<!-- Planets have a unique, four syllable phonetic name and a [sigil](https://urbit.org/blog/creating-sigils), a visual representation of the name. -->
 
 行星具有独特的四个音节名称和一个 [符号 (sigil)](https://urbit.org/blog/creating-sigils)，即名称的视觉表示。
 
@@ -46,9 +45,9 @@ There are a few ways to get your own planet:
 - Receiving one from a friend
 - Asking on Twitter (if you're lucky)
 - Booting a comet and being friendly in [Urbit Community](https://urbit.org/groups/~bitbet-bolbel/urbit-community)
-- Purchasing one from a marketplace -->
+- Purchasing one from a marketplace 
 
-This guide will cover the last case and what to do after receiving one.
+This guide will cover the last case and what to do after receiving one. -->
 
 ### 哪里可以获取一个行星
 
@@ -56,7 +55,7 @@ This guide will cover the last case and what to do after receiving one.
 
 - 从朋友那里得到一个
 - 在推特 (Twitter) 上询问（如果你很幸运的话）
-- 启动彗星，并在 [Urbit 社区](https://urbit.org/groups/~bitbet-bolbel/urbit-community) 保持友好
+- 启动彗星，并在[Urbit 社区](https://urbit.org/groups/~bitbet-bolbel/urbit-community)保持友好
 - 从市场上购买一个
 
 本指南将介绍最后一个案例以及收到行星后的流程说明。
@@ -76,11 +75,11 @@ when using Urbit. -->
 
 有许多地方可以使用加密货币或法定货币来购买行星。
 
-第1层 (Layer 1) 行星在市场上是最容易买到的，但由于以太坊的费用，它们可能很昂贵。你需要一个以太坊钱包 (例如 Metamask) 来购买行星，随后需要使用你的钱包登录桥接 (Bridge) 以配置你的行星。
+第1层 (Layer 1) 行星在市场上是最容易买到的，但由于以太坊的费用，它们可能会很昂贵。你需要一个以太坊钱包 (例如 Metamask) 来购买行星，随后需要使用你的钱包登录桥接 (Bridge) 以配置你的行星。
 
-第2层 (Layer 2) 行星不需要任何加密货币钱包管理，但只在特定市场上可以买得到。
+第2层 (Layer 2) 行星不需要任何加密货币钱包管理，但只能在特定市场上可以买得到。
 
-在使用 Urbit 时，第一层或第二层的体验质量没有区别。
+在使用 Urbit 时，第一层或第二层的体验质量并没有区别。
 
 <!-- Here are a few of the places where you can buy planets: 
 {% table .w-full .my-4 %}
@@ -132,7 +131,7 @@ Learn more about [layer 2 for planets](https://operators.urbit.org/manual/id/lay
 
 **第2层行星**
 
-了解更多有关 [第2层行星](https://operators.urbit.org/manual/id/layer-2-for-planets) 的信息，请参阅用户手册的专题页面。
+了解更多有关[第2层行星](https://operators.urbit.org/manual/id/layer-2-for-planets)的信息，请参阅用户手册的专题页面。
 
 {% /callout %}
 
@@ -158,7 +157,7 @@ Clicking a link to activate a planet on Bridge will take you to page which will 
 
 第一种是带有 Urbit ID 以及主票 (Master Ticket) 的电子邮件邀请。
 
-第二种是通过我们的 [L2 解决方案](https://operators.urbit.org/manual/id/layer-2-for-planets) 所提供的，是一个激活码或链接，可以在 [桥接 (Bridge)](https://bridge.urbit.org)， 即 Urbit ID 管理工具上激活。
+第二种是通过我们的[L2 解决方案](https://operators.urbit.org/manual/id/layer-2-for-planets)所提供的，是一个激活码或链接，可以在[桥接 (Bridge)](https://bridge.urbit.org)， 即 Urbit ID 管理工具上进行激活。
 
 ！[](https://media.urbit.org/site/getting-started/Server-setup-1.jpg)
 
@@ -170,7 +169,7 @@ Clicking a link to activate a planet on Bridge will take you to page which will 
 
 If you’ve purchased an L1 planet, you won’t need to claim it because you already own it as an NFT. Simply log into Bridge using Metamask or your wallet of choice.
 
-{% /callout %}-->
+{% /callout %} -->
 
 **认领L1行星**
 
@@ -179,7 +178,7 @@ If you’ve purchased an L1 planet, you won’t need to claim it because you alr
 {% /callout %}
 
 
-### Using Bridge to get your keyfile
+<!-- ### Using Bridge to get your keyfile 
 
 Now that you have your planet, you can create your keyfile (eg. `sample-palnet.key`), which is the cryptographic signature required to encrypt and decrypt messages on Urbit's P2P network.
 
@@ -190,7 +189,7 @@ Now that you have your planet, you can create your keyfile (eg. `sample-palnet.k
   If you haven’t downloaded your Passport but have a Master Ticket, then you can simply log in with Bridge using the Master Ticket option with your planet name and Master Ticket password. Click the ID box near the bottom of the page to open the ID page, then click the **Download Passport** button, which contains your keyfile.
 
 - **L1 Planet Purchasers**  
-  Log in to Bridge with your Ethereum wallet using Metamask or the wallet of your choice with WalletConnect. Click the “OS” box on the bottom of the page to open the OS page, and then click the **Download Keyfile** button.
+  Log in to Bridge with your Ethereum wallet using Metamask or the wallet of your choice with WalletConnect. Click the “OS” box on the bottom of the page to open the OS page, and then click the **Download Keyfile** button. -->
   
 ### 使用桥接来获取你的密钥文件
 
@@ -205,7 +204,7 @@ Now that you have your planet, you can create your keyfile (eg. `sample-palnet.k
 - **L1行星购买者**  
   使用 Metamask 的以太坊钱包或使用 WalletConnect 连接你所选的钱包来登录桥接。点击页面底部的 "操作系统 (OS)" 框以打开操作系统页面，然后点击 **下载密钥文件** 按钮。
 
-### Next steps
+<!-- ### Next steps 
 
 Now that you have a keyfile let's move on to booting the Urbit OS.
 
@@ -213,7 +212,7 @@ Now that you have a keyfile let's move on to booting the Urbit OS.
 
 - [Install on the cloud](/getting-started/cloud-hosting) – A step-by-step guide to setting up Urbit on a VPS.
 
-- [Set up a home server](/getting-started/home-servers) – Explore options for running your own dedicated physical Urbit computer.
+- [Set up a home server](/getting-started/home-servers) – Explore options for running your own dedicated physical Urbit computer. -->
 
 ### 下一步
 
