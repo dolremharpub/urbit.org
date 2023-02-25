@@ -200,10 +200,10 @@ Now that you have your planet, you can create your keyfile (eg. `sample-palnet.k
   如果你已经认领了L2行星，那么你应该已经下载了你的护照，其中包含了你的主票和密钥文件。
 
 - **主票持有者**  
-  如果你没有下载你的护照但有主票，那么你可以简单地使用你的行星名称和主票密码在桥接的主票选项中登录。点击靠近页面底部的 ID 框，打开ID页面，然后点击 **下载护照** 按钮，其中包含你的密钥文件。
+  如果你还没有下载你的护照，且持有主票，那么你可以简单地使用你的行星名称以及主票密码在桥接的主票选项中登录。点击页面底部的 ID 框以打开 ID页面，然后点击 **下载护照** 按钮，其中包含你的密钥文件。
 
 - **L1行星购买者**  
-  使用 Metamask 或您选择的钱包与 WalletConnect 登录到桥接。点击页面底部的 "操作系统 "框，打开操作系统页面，然后点击 **下载密钥文件** 按钮。
+  使用 Metamask 的以太坊钱包或使用 WalletConnect 连接你所选的钱包来登录桥接。点击页面底部的 "操作系统 (OS)" 框以打开操作系统页面，然后点击 **下载密钥文件** 按钮。
 
 ### Next steps
 
@@ -214,3 +214,13 @@ Now that you have a keyfile let's move on to booting the Urbit OS.
 - [Install on the cloud](/getting-started/cloud-hosting) – A step-by-step guide to setting up Urbit on a VPS.
 
 - [Set up a home server](/getting-started/home-servers) – Explore options for running your own dedicated physical Urbit computer.
+
+### 下一步
+
+现在你有了一个密钥文件，让我们继续启动 Urbit 操作系统。
+
+- [CLI 说明](/getting-started/cli) - 使用命令行设置 Urbit runtime (Vere)。
+
+- [安装到云端](/getting-started/cloud-hosting) - 在 VPS 上设置 Urbit 的分步指南。
+
+- [设置家庭服务器](/getting-started/home-servers) - 探索运行你自己的专用物理 Urbit 计算机的选项。
