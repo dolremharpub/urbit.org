@@ -33,7 +33,7 @@ However, we can get started a simple app from Urbit developer [`~paldev`](/ids/~
 
 并非所有的应用程序都在 urbit.org 上列出，因此你可以通过积极使用 Urbit 和结识新朋友来发现更多的应用程序。
 
-然而，我们可以从 Urbit 开发者[`~paldev`]（/ids/~paldev）开始一个简单的应用程序。
+然而，我们可以从 Urbit 开发者[`~paldev`](/ids/~paldev)开始一个简单的应用程序。
 
 <!-- ### 2. Search for a Developer 
 
