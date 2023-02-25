@@ -16,7 +16,7 @@ And still other groups are secret!  Which means you can't find them, and you'll 
 
 Let's walk through the process of finding and joining a public group. -->
 
-加入公共群组非常简单：搜索群组主人的 Urbit ID，然后加入。有些群组是私人的，所以你需要获得批准才能加入。
+加入公共群组其实很简单：搜索群组主人的 Urbit ID，然后加入。有些群组是私人的，所以你需要获得批准才能加入。
 
 还有一些群组是秘密的！这意味着你无法找到它们，而需要受邀才能加入。
 
@@ -55,7 +55,7 @@ Then click on the "Join" button once the group appears.
 
 要加入一个群组，你需要知道其主机 Urbit ID (例如 ~bitbet-bolbel) 或完整的 Urbit 地址，也叫作简码。
 
-在[urbit.org群组目录]中可以查看一些公共群组(/ecosystem?type=groups)
+在[urbit.org 群组目录](/ecosystem?type=groups)中可以查看一些公共群组。
 
 作为一个例子，我们先加入 Urbit 基金会的官方群组 UF。
 
@@ -66,7 +66,7 @@ Then click on the "Join" button once the group appears.
 ![](https://media.urbit.org/site/additional-guides/groups-2.png)
 
 
-<!-- ### 3. Join channels -->
+<!-- ### 3. Join channels 
 
 After a few moments the default channels will load. For groups with a large backlog, such as Urbit Community (~bitbet-bolbel/urbit-community), this may take a few minutes.
 
