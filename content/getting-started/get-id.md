@@ -27,7 +27,7 @@ Planets have a unique, four syllable phonetic name and a [sigil](https://urbit.o
 
 ### ID 的类型
 
-Urbit ID 有 [五种不同的类型](https://operators.urbit.org/guides/which-id-should-i-buy)，但在这里我们只讨论两种类型，即彗星和行星。
+Urbit ID 有[五种不同的类型](https://operators.urbit.org/guides/which-id-should-i-buy)，但在这里我们只讨论两种类型，即彗星和行星。
 
 **彗星**是免费的临时身份，你可以自己签发，但只适合短期使用。**行星**是永久性身份，适合长期使用。
 
@@ -35,7 +35,7 @@ Urbit ID 有 [五种不同的类型](https://operators.urbit.org/guides/which-id
 
 <!-- Planets have a unique, four syllable phonetic name and a [sigil](https://urbit.org/blog/creating-sigils), a visual representation of the name. -->
 
-行星具有独特的四个音节名称和一个 [符号 (sigil)](https://urbit.org/blog/creating-sigils)，即名称的视觉表示。
+行星具有独特的四个音节名称和一个[符号 (sigil)](https://urbit.org/blog/creating-sigils)，即名称的视觉表示。
 
 
 <!-- ### Where to get a planet 
@@ -157,9 +157,9 @@ Clicking a link to activate a planet on Bridge will take you to page which will 
 
 第一种是带有 Urbit ID 以及主票 (Master Ticket) 的电子邮件邀请。
 
-第二种是通过我们的[L2 解决方案](https://operators.urbit.org/manual/id/layer-2-for-planets)所提供的，是一个激活码或链接，可以在[桥接 (Bridge)](https://bridge.urbit.org)， 即 Urbit ID 管理工具上进行激活。
+第二种是通过我们的[第二层 (L2) 解决方案](https://operators.urbit.org/manual/id/layer-2-for-planets)所提供的，是一个激活码或链接，可以在[桥接 (Bridge)](https://bridge.urbit.org)， 即 Urbit ID 管理工具上进行激活。
 
-！[](https://media.urbit.org/site/getting-started/Server-setup-1.jpg)
+![](https://media.urbit.org/site/getting-started/Server-setup-1.jpg)
 
 在桥接上点击激活行星的链接将带你进入为你生成主票 (Master Ticket) 的页面。按照指示，你将下载一份护照 (Passport) 的副本：你的主票、管理代理 (management proxy) 以及密钥文件。请将你的主票和管理代理保存在一个安全的地方。有了密钥文件，我们继续进行下一个步骤。
 
