@@ -49,7 +49,7 @@ For example, to install the pals application, search for `~paldev` and then clic
 
 ### 2. 搜索开发者
 
-连上网络后，你会看到一个大型的磁贴界面，上面有一些应用程序和页面顶部的搜索栏。
+连上网络后，你将看到一个显示一些应用程序的磁贴界面，页面顶部还有一个搜索栏。
 
 点击搜索栏，并搜索软件供应商的 Urbit ID。
 
@@ -59,7 +59,7 @@ For example, to install the pals application, search for `~paldev` and then clic
 
 ![](https://media.urbit.org/site/getting-started/install-apps-2.png)
 
-### 3. Get the Application
+<!-- ### 3. Get the Application 
 
 Select the pals app, and a modal window will open that shows some information about the application. Go ahead and click the “Get App” button, and confirm the following modal window to begin the installation process.
 
@@ -67,16 +67,14 @@ Soon you’ll have a new application tile on your home screen.  Now you can add 
 
 ![](https://media.urbit.org/site/getting-started/install-apps-3.png)
 
-![](https://media.urbit.org/site/getting-started/install-apps-4.png)
+![](https://media.urbit.org/site/getting-started/install-apps-4.png) -->
 
 
 ### 3. 获取应用程序
 
 选择 pals 应用程序后，将打开一个模态窗口，显示有关该应用程序的一些信息。继续点击 "获取应用程序" 按钮，并确认以下模态窗口以开始安装过程。
 
-很快你的主屏幕上就会出现一个新的应用程序磁贴。 现在你可以输入的Urbit ID
-
-把你在网络上认识的人添加为你的伙伴，只要输入他们的Urbit ID。
+很快你的主屏幕上就会出现一个新的应用程序磁贴。 现在，你只需输入 Urbit ID，就可将你在网络上所认识的人添加为好友。
 
 ![](https://media.urbit.org/site/getting-started/install-apps-3.png)
 
